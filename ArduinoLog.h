@@ -48,15 +48,15 @@ typedef void (*printfunction)(Print*, int);
 
 #define BOLDRED F("\033[1;31m")
 #define BOLDWHITE F("\033[1;37m")
-#define RED "\033[;31m"
-#define YELLOW "\033[;33m"
-#define GREEN "\033[;32m"
-#define WHITE "\033[;37m"
+#define RED "\033[;91m"
+#define YELLOW "\033[;93m"
+#define GREEN "\033[;92m"
+#define WHITE "\033[;97m"
 #define BLACK "\033[;38;5;240m"
 #define ENDCOLOUR "\033[0m"
-#define CR "\n"
+#define CR "\r\n"
 #define LF "\r"
-#define NL "\n\r"
+#define NL "\r\n"
 #define LOGGING_VERSION 1_0_4
 
 /**
